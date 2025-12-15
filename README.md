@@ -8,7 +8,7 @@ A fully decentralized Todo application built on the **Ethereum Sepolia Testnet**
 
 > Deployed on **Vercel** (Frontend) + **Sepolia Testnet** (Smart Contract)
 
-https://todolist-kappa-lac.vercel.app/)
+https://todolist-kappa-lac.vercel.app/
 
 ---
 
@@ -78,7 +78,7 @@ The contract stores todos per user and exposes functions to:
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/todo-dapp.git
+https://github.com/sanoojkavungal/Todolist.git
 
 # Open folder
 cd todo-dapp
@@ -87,21 +87,6 @@ cd todo-dapp
 npx serve
 ```
 
-> ⚠️ MetaMask required and Sepolia network must be selected
-
----
-
-## 🌍 Deployment (Vercel)
-
-1. Push project to GitHub
-2. Go to [https://vercel.com](https://vercel.com)
-3. Import GitHub repository
-4. Framework: **Other**
-5. Build Command: *None*
-6. Output Directory: *Default*
-7. Deploy 🎉
-
----
 
 ## 🔐 Security Notes
 
