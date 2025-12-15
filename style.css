@@ -1,0 +1,300 @@
+
+:root {
+  --bg: #0f172a;
+  --card: #111827;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --primary: #3b82f6;
+  --accent: #22c55e;
+  --danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 420px;
+  padding: 1.5rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.wallet {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.add-todo {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.add-todo input {
+  flex: 1;
+  padding: 0.7rem 0.8rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #020617;
+  color: var(--text);
+}
+
+.todo-list {
+  list-style: none;
+  margin-top: 0.8rem;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0.2rem;
+  border-bottom: 1px solid #1f2933;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-text {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.todo-text.completed span {
+  text-decoration: line-through;
+  color: var(--muted);
+}
+
+.todo-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+
+.todo-actions .toggle {
+  color: var(--accent);
+}
+
+.todo-actions .delete {
+  color: var(--danger);
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn.accent {
+  background: var(--accent);
+  color: #022c22;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+
+:root {
+  --bg: #0f172a;
+  --card: #111827;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --primary: #3b82f6;
+  --accent: #22c55e;
+  --danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+  max-width: 420px;
+  padding: 1.5rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.wallet {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 0 1px rgba(59, 130, 246, 0.2),
+    0 0 20px rgba(59, 130, 246, 0.35),
+    0 0 40px rgba(59, 130, 246, 0.15);
+}
+
+.add-todo {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.add-todo input {
+  flex: 1;
+  padding: 0.7rem 0.8rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #020617;
+  color: var(--text);
+}
+
+.todo-list {
+  list-style: none;
+  margin-top: 0.8rem;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0.2rem;
+  border-bottom: 1px solid #1f2933;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
+
+.todo-text {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.todo-text.completed span {
+  text-decoration: line-through;
+  color: var(--muted);
+}
+
+.todo-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+
+.todo-actions .toggle {
+  color: var(--accent);
+}
+
+.todo-actions .delete {
+  color: var(--danger);
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn.accent {
+  background: var(--accent);
+  color: #022c22;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo dApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>📝 Todo dApp</h1>
+      <p class="subtitle">Decentralized • Secure • On-chain</p>
+      <button id="connectBtn" class="btn primary">Connect Wallet</button>
+      <p id="wallet" class="wallet"></p>
+    </header>
+
+    <section class="card">
+      <div class="add-todo">
+        <input id="taskInput" type="text" placeholder="Add a new task..." />
+        <button id="addBtn" class="btn accent">Add</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Your Todos</h2>
+      <ul id="todoList" class="todo-list">
+        <!-- Todos will render here -->
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <span>Ethereum Sepolia Testnet</span>
+    </footer>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
