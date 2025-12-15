@@ -8,7 +8,7 @@ A fully decentralized Todo application built on the **Ethereum Sepolia Testnet**
 
 > Deployed on **Vercel** (Frontend) + **Sepolia Testnet** (Smart Contract)
 
-*Add your deployed link here*
+https://todolist-kappa-lac.vercel.app/)
 
 ---
 
